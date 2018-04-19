@@ -11,7 +11,6 @@
 		F9EC849C2088925400D2B264 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9EC849B2088925400D2B264 /* ViewController.swift */; };
 		F9EC84A12088925700D2B264 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9EC84A02088925700D2B264 /* Assets.xcassets */; };
 		F9EC84A42088925700D2B264 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9EC84A22088925700D2B264 /* LaunchScreen.storyboard */; };
-		F9EC84AF2088925700D2B264 /* __cookiecutter_app_name__Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9EC84AE2088925700D2B264 /* __cookiecutter_app_name__Tests.swift */; };
 		F9EC84CD2088E11500D2B264 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9EC84CC2088E11500D2B264 /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -33,7 +32,6 @@
 		F9EC84A32088925700D2B264 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F9EC84A52088925700D2B264 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F9EC84AA2088925700D2B264 /* {{cookiecutter.app_name}}Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "{{cookiecutter.app_name}}Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F9EC84AE2088925700D2B264 /* __cookiecutter_app_name__Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = __cookiecutter_app_name__Tests.swift; sourceTree = "<group>"; };
 		F9EC84B02088925700D2B264 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F9EC84CC2088E11500D2B264 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -92,7 +90,6 @@
 		F9EC84AD2088925700D2B264 /* {{cookiecutter.app_name}}Tests */ = {
 			isa = PBXGroup;
 			children = (
-				F9EC84AE2088925700D2B264 /* __cookiecutter_app_name__Tests.swift */,
 				F9EC84B02088925700D2B264 /* Info.plist */,
 			);
 			path = "{{cookiecutter.app_name}}Tests";
@@ -350,7 +347,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F9EC84AF2088925700D2B264 /* __cookiecutter_app_name__Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
