@@ -12,6 +12,7 @@
 		F9EC84A12088925700D2B264 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9EC84A02088925700D2B264 /* Assets.xcassets */; };
 		F9EC84A42088925700D2B264 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9EC84A22088925700D2B264 /* LaunchScreen.storyboard */; };
 		F9EC84AF2088925700D2B264 /* __cookiecutter_app_name__Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9EC84AE2088925700D2B264 /* __cookiecutter_app_name__Tests.swift */; };
+		F9EC84CD2088E11500D2B264 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9EC84CC2088E11500D2B264 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,7 @@
 		F9EC84AA2088925700D2B264 /* {{cookiecutter.app_name}}Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "{{cookiecutter.app_name}}Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9EC84AE2088925700D2B264 /* __cookiecutter_app_name__Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = __cookiecutter_app_name__Tests.swift; sourceTree = "<group>"; };
 		F9EC84B02088925700D2B264 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9EC84CC2088E11500D2B264 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 				F9EC84BA2088935900D2B264 /* UI */,
 				F9EC84B92088930C00D2B264 /* Resources */,
 				F9EC84A52088925700D2B264 /* Info.plist */,
+				F9EC84CC2088E11500D2B264 /* main.swift */,
 			);
 			path = "{{cookiecutter.app_name}}";
 			sourceTree = "<group>";
@@ -339,6 +342,7 @@
 			files = (
 				F9EC849C2088925400D2B264 /* ViewController.swift in Sources */,
 				F9EC849A2088925400D2B264 /* AppDelegate.swift in Sources */,
+				F9EC84CD2088E11500D2B264 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
